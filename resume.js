@@ -20,7 +20,7 @@ function slidePhotos() {
 }
 
 
-setInterval(slidePhotos, 3000);
+setInterval(slidePhotos, 2000);
 
 
 
