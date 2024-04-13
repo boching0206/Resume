@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  background-color: #f5f5dc;
+  padding: 20px;
+}
+
+.resume {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 100px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #f0f0f0;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: auto 0;
+  background-image: url('image/profile.jpg');
+  background-size: cover;
+}
+
+.resume h1 {
+  font-size: 60px;
+  margin-left: 360px;
+  margin-top: -185px;
+  color: #27384C;
+}
+
+.resume h2 {
+  font-size: 60px;
+  margin-left: 355px;
+  margin-top: -20px;
+  color: #27384C;
+}
+
+.resume h3 {
+  border-width: 10px;
+  width: 740px;
+  height: 30px;
+  text-align: center;
+  background-color: rgba(41, 105, 176, 0.7);
+  border-radius: 4px;
+  font-size: 24px;
+  border-bottom: 3px solid #333;
+  padding-bottom: 30px;
+  margin-top: 60px;
+}
+
+.resume h4 {
+  width: 200px;
+  margin-left: 145px;
+  background-color: rgba(41, 105, 176, 0.7);
+  border-radius: 3px;
+  font-size: 20px;
+  border-bottom: 3px solid #333;
+  text-align: center;
+}
+
+.resume h5 {
+  border-width: 10px;
+  width: 740px;
+  height: 30px;
+  text-align: center;
+  background-color: rgba(41, 105, 176, 0.7);
+  border-radius: 4px;
+  font-size: 24px;
+  border-bottom: 3px solid #333;
+  padding-bottom: 30px;
+  margin-top: 60px;
+  margin-bottom: 25px;
+}
+
+.About {
+  margin-bottom: -20px;
+}
+
+.name {
+  font-size: 20px;
+  font-family: Trebuchet MS, sans-serif;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.icon-a {
+  transform: scale(0.8);
+  height: 0;
+  margin-left: -80px;
+}
+
+.icon-b {
+  transform: scale(0.8);
+  height: 0;
+  text-align: center;
+}
+
+.icon-c {
+  display: flex;
+  transform: scale(0.7);
+  height: 50px;
+  margin-left: 670px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.Languages {
+  display: flex;
+  font-size: 25px;
+}
+
+.Mandarin,
+.Cantonese {
+  margin-left: 190px;
+}
+
+.skill-bar {
+  margin-bottom: 20px;
+}
+
+.skill {
+  height: 45px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.skill-value {
+  height: 100%;
+  background-color: #4CAF50;
+  border-radius: 5px;
+  transition: width 3s ease-in-out;
+  animation: progressAnimationStrike 3s;
+}
+
+@keyframes progressAnimationStrike {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100;
+  }
+}
+
+.skill-label,
+.skill-percents {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #010101;
+}
+
+.skill-label {
+  left: 10px;
+}
+
+.skill-percents {
+  right: 10px;
+}
+
+
+svg {
+  color: blueviolet;
+  width: 100px;
+  height: 100px;
+}
+
+.life {
+  margin-top: 30px;
+}
+
+.activity-description {
+  text-align: center;
+  font-size: 20px;
+  font-family: Courier New, monospace;
+}
+
+.activity-description ul {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.activity-description ul li {
+  margin-right: 20px;
+}
+
+.activity-description ul.life span {
+  margin-left: 10px;
+}
+
+.activity-description ul.life-a strong,
+.activity-description ul.life-b strong {
+  margin-left: 10px;
+}
+
+.activity-description ul img {
+  transition: opacity 3s ease;
+  opacity: 1;
+}
+
+.activity-description ul img.fade-out {
+  opacity: 0;
+}
+
+.section-title {
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+
+#slide {
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+  position: relative;
+}
+
+#photos {
+  width: 2000px;
+  height: 500px;
+  position: relative;
+}
+
+#photos li {
+  float: left;
+  width: 250px;
+  height: 250px;
+}
+
+.slide {
+  text-align: center;
+}
+
+.resume h6 {
+  margin-bottom: -60px;
+  margin-left: 270px;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .resume {
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+  }
+
+  .resume h1,
+  .resume h2 {
+    font-size: 36px;
+    margin-left: 55%;
+    margin-top: -100px;
+  }
+
+  .resume h3 {
+    max-width: 100%;
+    margin-top: 40%;
+  }
+
+  .resume h4 {
+    margin-top: 15%;
+    margin-left: 23%;
+  }
+
+  .resume h5 {
+    max-width: 100%;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .name {
+    font-size: 16px;
+  }
+
+  .icon-a {
+    margin-left: -10%;
+  }
+
+  .icon-b {
+    margin-left: 10%;
+  }
+
+  .icon-c {
+    margin-left: 80%;
+  }
+
+  .Languages {
+    flex-direction: column;
+  }
+
+  .Mandarin,
+  .Cantonese {
+    margin-left: 0px;
+  }
+
+
+  .Languages div {
+    margin-bottom: 10px;
+  }
+
+  .skill-bar {
+    margin-bottom: 10px;
+  }
+
+  .skill-label,
+  .skill-percents {
+    font-size: 16px;
+  }
+
+  .activity-description ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .interests h6 {
+    font-size: 20px;
+    margin-bottom: -42%;
+    margin-left: 68%;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+  }
+
+}
