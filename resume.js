@@ -22,7 +22,7 @@ function slidePhotos() {
 
 setInterval(slidePhotos, 3000);
 
-setInterval(slidePhotos, 3000);
+
 
 function slide_photos() {
     var photos = document.getElementById("photos");
